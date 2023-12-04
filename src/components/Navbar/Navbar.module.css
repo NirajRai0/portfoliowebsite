@@ -1,0 +1,105 @@
+@import "../../vars.css";
+
+.navbar {
+    position: relative;
+    display: flex;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 61px;
+    z-index: 0 10%;   /*vertical   horizontal */
+}
+
+.title {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: 31px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItems {
+    display: flex;
+    gap: 27px;
+    list-style: none;
+}
+
+.menuItems a {
+    font-size: 21px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.menuBtn { 
+    margin-right: 20px;
+    height: 0px;
+    width: 0px;
+    /* border-radius: 20px; */
+    /* background-color: #fff; */
+    /* cursor: pointer; */
+}
+.menuBtn { 
+    margin-right: 20px;
+    height: 0px;
+    width: 0px;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar {
+        /* position: absolute; */
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+    
+
+    .menuBtn {
+        height: 30px;
+    width: 30px;
+    /* margin-right: 100px; */
+    border-radius: 20px;
+    margin-top: -35px;
+        /* display: block; */
+        cursor: pointer;
+    }
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        /* margin-right: 200px; */
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(0deg, rgba(25, 55,109,0.2) 0%, rgba(25, 55, 109,1) 100%);
+        padding: 24px 33px;        
+        box-shadow: 0 0 4px 0 rgba( 0, 0, 0, 0.2); 
+    }
+    .menuBtn1 {
+        height: 30px;
+    width: 30px;
+    margin-right: 100px;
+    border-radius: 20px;
+    margin-top: -35px;
+        /* display: block; */
+        cursor: pointer;
+    }
+
+    .menuOpen {
+        display: flex;
+        /* padding-right:250px ; */
+        position:fixed;
+        z-index: 500px;
+        
+        /* z-index: 1; */
+    }
+
+}
