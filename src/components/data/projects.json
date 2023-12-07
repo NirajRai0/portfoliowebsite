@@ -1,14 +1,14 @@
 [
     {
         "title": "Portfolio Website",
-        "imageSrc": "../assets/Experince/project.jpg",
+        "imageSrc": "/assets/Experince/project.jpg",
         "description": "Portfolio website this website is fully mobile responsive",
         "skills": ["React+Vite","Css"]
     },
 
     {
         "title": "Notebook",
-        "imageSrc": "../assets/Experince/project.jpg",
+        "imageSrc": "/assets/Experince/project.jpg",
         "description": "Page for person to person save the data according to registration login notebook pages",
         "skills": ["HTML", "Css","JavaScript"]
     }

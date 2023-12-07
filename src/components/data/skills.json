@@ -1,35 +1,35 @@
 [
     {
         "title": "HTML",
-        "imageSrc": "/../assets/Experince/html.png" 
+        "imageSrc": "/assets/Experince/html.png" 
     },
     {
         "title": "CSS",
-        "imageSrc": "../assets/Experince/css.png" 
+        "imageSrc": "/assets/Experince/css.png" 
     },
     {
         "title": "JavaScript",
-        "imageSrc": "../assets/Experince/js.png" 
+        "imageSrc": "/assets/Experince/js.png" 
     },
     {
         "title": "React",
-        "imageSrc": "../assets/Experince/reac.webp" 
+        "imageSrc": "/assets/Experince/reac.webp" 
     },
     {
         "title": "Node",
-        "imageSrc": "../assets/Experince/node-js.svg" 
+        "imageSrc": "/assets/Experince/node-js.svg" 
     },
     {
         "title": "Express",
-        "imageSrc": "../assets/Experince/express.png" 
+        "imageSrc": "/assets/Experince/express.png" 
     },
     {
         "title": "MongoDB",
-        "imageSrc": "../assets/Experince/mgdb.png" 
+        "imageSrc": "/assets/Experince/mgdb.png" 
     },
     {
         "title": "MySql",
-        "imageSrc": "../assets/Experince/sql.png" 
+        "imageSrc": "/assets/Experince/sql.png" 
     }
 
 ]

@@ -8,7 +8,7 @@ const About = () => {
         <div className={styles.content}>
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
-                    <img className={styles.imgs} src="../../assets/About/frontend.png" alt="curser icon" />
+                    <img className={styles.imgs} src="/assets/About/frontend.png" alt="curser icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Frontend Developer</h3>
                         <p >
@@ -19,7 +19,7 @@ const About = () => {
                 </li>
 
                 <li className={styles.aboutItem}>
-                    <img className={styles.imgs} src="../../assets/About/back1.png" alt="curser icon" />
+                    <img className={styles.imgs} src="/assets/About/back1.png" alt="curser icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Backend Developer</h3>
                         <p>

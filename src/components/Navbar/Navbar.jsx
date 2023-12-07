@@ -9,8 +9,8 @@ export const Navbar = () => {
             <div className={styles.menu}>
            
             <img className={menuOpen ? styles.menuBtn1 : styles.menuBtn}
-             src={ menuOpen? "../../assets/nav/closeIcon.png"
-              : "../../assets/nav/menuIcon.png"} 
+             src={ menuOpen? "/assets/nav/closeIcon.png"
+              : "/assets/nav/menuIcon.png"} 
              alt="menu-button"
              onClick={() => setMenuOpen(!menuOpen)} 
              />
